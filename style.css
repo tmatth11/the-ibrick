@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(207, 147, 147);
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/* section {
+    padding-top: 80px !important;
+} */
+
+h2 .text-center .my-3 {
+    white-space: nowrap;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 600px) {
+    .carousel-item img {
+        width: 250px;
+        height: 250px;
+    }
+}

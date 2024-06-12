@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png">
+    <title>The iBrick</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark border-4 border-bottom border-danger-subtle py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">The iBrick</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item me-2">
+                        <a href="#features" class="nav-link btn btn-danger">Features</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a href="#gallery" class="nav-link btn btn-danger">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link btn btn-danger">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link btn btn-danger">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#buy" class="nav-link btn btn-danger">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Introducing the <span class="text-danger">iBrick</span></h1>
+                    <p class="lead my-4">
+                        The most simplistic piece of technology that has been used by mankind for centuries.
+                    </p>
+                    <a class="btn btn-danger btn-lg" href="#buy" role="button">Buy Now</a>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block ms-4 shadow-lg" src="images/showcase.avif"
+                    alt="showcase image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="p-2 p-md-5" id="features">
+        <div class="container-lg my-5">
+            <h2 class="text-center my-3">Features</h2>
+            <p>
+                The iBrick originated from the brick, which is "a type of construction material used to build walls,
+                pavements and other elements in masonry construction," according to <a
+                    href="https://en.wikipedia.org/wiki/Brick" target="_blank">Wikipedia</a>.
+                The only difference between the iBrick and the standard brick is that we put an "i" in front of it.
+            </p>
+            <p>Here are its core features:</p>
+            <ul class="list-group p-3">
+                <li class="list-group-item">Composed of the highest-quality clay</li>
+                <li class="list-group-item">Long-lasting</li>
+                <li class="list-group-item">Used to build structures</li>
+                <li class="list-group-item">Bumpy exterior</li>
+                <li class="list-group-item">Strong interior</li>
+            </ul>
+            <h3 class="text-center my-3">Specifications</h3>
+            <p>
+                The iBrick comes with the following specifications:
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <table class="table table-bordered table-striped text-center shadow mx-auto">
+                        <thead>
+                            <tr>
+                                <th scope="col">Colors</th>
+                                <th scope="col">Cameras</th>
+                                <th scope="col">Storage</th>
+                                <th scope="col">CPU</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Red</td>
+                                <td>None</td>
+                                <td>0 GB</td>
+                                <td>None</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="p-2 p-md-5 bg-light bg-gradient" id="gallery">
+        <div class="container-lg my-5">
+            <h2 class="text-center my-3">Gallery</h2>
+            <p class="lead">Take a look at our collection of iBrick images showcasing its simplistic design and
+                versatility in
+                various settings:</p>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/carousel1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="fw-bolder text-warning">iBrick Wall</h3>
+                            <h4 class="text-primary fw-bold">iBricks being used to construct a sturdy brick wall</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="fw-bolder text-warning">iBrick House</h3>
+                            <h4 class="text-primary fw-bold">iBricks being used to create shelter</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/carousel3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="fw-bolder text-warning">iBrick Fire Pit</h3>
+                            <h4 class="text-primary fw-bold">iBricks being used to help contain fire</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="p-2 p-md-5" id="testimonials">
+        <div class="container-lg my-5">
+            <h2 class="text-center my-3">Testimonials</h2>
+            <p class="lead">Here's what our satisfied customers had to say about the iBrick:</p>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group p-2">
+                        <div class="list-group-item py-3 bg-danger-subtle border-bottom border-dark">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5 class="mb-1">It's just a brick.</h5>
+                            <p class="mb-1">"I don't understand how this can be used as a phone. You can't even turn it
+                                on!"</p>
+                            <small>- iphonefan123</small>
+                        </div>
+                        <div class="list-group-item py-3 bg-danger-subtle border-bottom border-dark">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h5 class="mb-1">Great for fire pits.</h5>
+                            <p class="mb-1">
+                                "I bought a ton of these for a bonfire I had on the 4th of July.
+                                These bricks helped contain the fire and made my backyard look nice!"</p>
+                            <small>- brickenjoyer52</small>
+                        </div>
+                        <div class="list-group-item py-3 bg-danger-subtle border-bottom border-dark">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5 class="mb-1">Not enough features.</h5>
+                            <p class="mb-1">
+                                "These bricks are fine, but they don't have any special features.
+                                I was hoping for something more innovative, like a built-in flashlight or a way to stack
+                                them together without using cement."
+                            </p>
+                            <small>- averagedude22</small>
+                        </div>
+                        <div class="list-group-item py-3 bg-danger-subtle border-bottom border-dark">
+                            <div class="pb-2">
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5 class="mb-1">SCAM PRODUCT.</h5>
+                            <p class="mb-1">"I GOT THIS BRICK THINKING IT WAS FROM APPLE BUT IT'S NOT AND IT'S JUST A
+                                BRICK. I DONT EVEN GET THE PURPOSE OF THIS. THIS BRICK IS USELESS."</p>
+                            <small>- brickhater4</small>
+                        </div>
+                        <div class="list-group-item py-3 bg-danger-subtle border-bottom border-dark">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h5 class="mb-1">Built my first house with these bricks.</h5>
+                            <p class="mb-1">"Before I bought this brick, I was homeless. I had no place to go. One day,
+                                I went to the iBrick store and bought a few iBricks to build my first house. It turned
+                                out great!"</p>
+                            <small>- houselover2</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="p-2 p-md-5 bg-light bg-gradient" id="faq">
+        <div class="container-lg my-5">
+            <h2 class="text-center my-3">FAQ</h2>
+            <p class="lead">Here are some frequently asked questions about the iBrick:</p>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Q: Can the iBrick make phone calls?</h5>
+                            <p class="card-text">A: No, but it can be used to build walls, houses, and even fire pits!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Q: Does the iBrick have a camera?</h5>
+                            <p class="card-text">A: No, but you can glue one to it!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Q: How much does the iBrick weigh?</h5>
+                            <p class="card-text">A: They weigh about 4.5 pounds.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Q: Is the iBrick waterproof?</h5>
+                            <p class="card-text">A: The iBrick can last up to 500 years in water, so technically yes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Q: Can I play games on the iBrick?</h5>
+                            <p class="card-text">A: There are no games to install, but you can play "Catch the Brick"
+                                with your friends!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Q: What's the battery life of the iBrick?</h5>
+                            <p class="card-text">A: It doesn't have a battery, so it has 0 battery life.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Q: How many apps can I install on the iBrick?</h5>
+                            <p class="card-text">A: 0 apps. It's a brick.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Q: What operating system does the iBrick use?</h5>
+                            <p class="card-text">A: The iBrick uses the "BrickOS" operating system. Just kidding, it
+                                doesn't have one.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy Now -->
+    <section class="p-2 p-md-5 my-5" id="buy">
+        <div class="container-lg">
+            <h2 class="text-center my-3">Buy Now!</h2>
+            <p>Click the button below to get your very own iBrick!</p>
+            <div class="text-center">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" type="button"
+                    class="btn btn-danger">Buy</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Improved Navbar Functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.nav-link, .navbar-brand');
+            const navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    if (this.classList.contains('navbar-brand')) {
+                        // If the brand link is clicked, scroll to the top
+                        window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth'
+                        });
+                    } else {
+                        // Prevent the default action and handle smooth scroll for other links
+                        event.preventDefault();
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        const targetPosition = targetElement.offsetTop - navbarHeight;
+
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+
+                    // Close the navbar after clicking a link (for smaller screens)
+                    const navbarCollapse = document.getElementById('navmenu');
+                    if (navbarCollapse.classList.contains('show')) {
+                        const bootstrapCollapse = new bootstrap.Collapse(navbarCollapse);
+                        bootstrapCollapse.hide();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
